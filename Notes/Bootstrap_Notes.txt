@@ -1,0 +1,79 @@
+
+
+*******************************       Bootstrap       ******************************
+
+
+* Bootstrap :- Bootstrap is a Css Framework.
+---> Bootstrap is a powerful, featured-packed frontend toolkit. Build anything from prototype to production.
+---> bht sari chije jise websites me bar-bar use karna padta h, jaise buttons, navbar, forms aise bht sare components ko Bootstrap pahle
+     se styling de kar ek toolkit bna rakha h, ki kisi ko koi components use karne h to bas Bootstrap se uthao aur use karo, staring se 
+     us component ko styling karne ki jarurt nhi h. 
+
+* Framework :- It is a toolkit which we can use whenever we need.
+---> Framework toolkit hoti h jiske under bht sare aise saman available hota h, jise suruat se implement nhi karna padta h.
+
+* Bootstrap is most popular Css Framework in market. We will use it, but still in maximum websites pure css is used for styling.
+
+* Bootstrap work in concept of Flexbox.
+
+* Bootstrap ke under pre-built Css files hoti h, jiske under styling likhi hoti h, jise hm import karke directly un styles ko apne html
+  document par apply kar sakte h.
+
+* Benefits of Bootstrap :- 
+                          1. makes development fast & easier.
+                          2. pre-built components.
+                          3. good browser compatibility.
+
+* Most of the cases me hm pure css ko hi use karenge, but jab hme kam jaldi karna h us condition me Bootstrap ko use karenge,
+ qki at the end Bootstrap components ko v apne according css se modify karna padta h.
+
+*** CDN (content delivery network) :- Ye computers ka ek network hota h, jiske through nearest server se hme contents deliver kiye jate h.
+                   --> alag-alag companies ke bht sare servers hote h around the world, and jab hm kuchh search karte h, to wo hmari nearest
+                       server se aata h, jisse loading time reduce ho jata h. 
+
+* To hm ek cdn link include karte h css ke liye, jiski help se css files jaldi load ho jayengi hmari project ke under.
+
+* Hm ek aur cdn link include karenge javascript ke liye html ke <body> tag me, jisse kuchh functionality aa jayega jaise dropdown menu etc.
+
+* What will we cover in Bootstrap :- 
+                                1. Components :- pre-built and reusable piece of UI. eg:- buttons, forms.
+                                2. Layouts :-  overall structure and arrangements of elements. eg:- container, grid.
+
+*** Layouts :- 
+             1. Container :- iska kam hota h, elements ko contain karke rakhna aur unhe ek defined space ke under dikhana.
+             --> jab hm Bootstrap ko add karte h, to us elements ke text properties v change hote h.
+
+
+*** Components :- 
+               * 1. Buttons :- To make any button to Bootstrap button we have to give a class="btn" which is a base class.
+               --> we can also change the background-color of buttons using different classes given in Bootstrap.
+               --> If we want to modify Bootstrap styling then we can also do that by writing our own styles in css file using that 
+                  element's specific class.
+               --> We can also change the sizes of buttons just by using some Bootstrap classes.
+               --> We can even make a button inactive, by adding disabled boolean attribute.
+               --> We can even make a anchor tag looks like a button and it's functionality still will be as a anchor tag, just by giving 
+                   the same classes of buttons to anchor tags.
+
+
+                * 2. Badges :- kisi v app-ico ke uper hme jo red color me no. of notifications dikhte h, use badges kahte h.
+                --> jab v hme kisi level ko show karna hota h, ya count ko show karna hota h then we use badges.
+                --> we create badges using <span> and giving some classes.
+                --> we can create badges inside headings.
+                --> We can even create badges inside buttons.
+                --> We can also place badges in different positions , explore positions in utilities.
+                --> we can even change the shapes of badges. 
+
+                * 3. Alert :- jab hm websites ko load karte h to kuchh pop-ups show hote h ya kuchh alert show hote h.
+                --> We create alert using <div> and giving it a class="alert". 
+                --> we can even create a live alert, which obviously uses javascript.
+                --> we can also include a link inside a alert.
+                --> we can also include icons inside a alert.
+                --> we can dismiss alerts using the alert javascript plugin.
+
+                * 4. Button Group :- buttons ko ek single line me group me banana.
+                --> We can create button group by adding all buttons inside a <div> and giving it a class="btn-group".
+                --> button group me hm anchor tags ko as a buttons use kar sakte h.
+                --> we can also combine multiple checkboxes and radio buttons inside button group.
+
+                * 5. Navbar :-  
+
