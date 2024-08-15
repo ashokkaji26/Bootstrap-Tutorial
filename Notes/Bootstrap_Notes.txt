@@ -75,5 +75,10 @@
                 --> button group me hm anchor tags ko as a buttons use kar sakte h.
                 --> we can also combine multiple checkboxes and radio buttons inside button group.
 
-                * 5. Navbar :-  
+                * 5. Navbar :- Most important Component in any website
+                --> We create navbar using <nav> tag and using a class="navbar".
+                --> We can include Texts in navbar as a link or heading using a class=".navbar-brand".
+                --> We can replace the text by an image.
+                --> We can replace the text by an image & text also.
+                --> 
 
