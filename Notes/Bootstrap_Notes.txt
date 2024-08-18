@@ -10,7 +10,7 @@
      us component ko styling karne ki jarurt nhi h. 
 
 * Framework :- It is a toolkit which we can use whenever we need.
----> Framework toolkit hoti h jiske under bht sare aise saman available hota h, jise suruat se implement nhi karna padta h.
+---> Framework ek toolkit hoti h jiske under bht sare aise saman available hota h, jise suruat se implement nhi karna padta h.
 
 * Bootstrap is most popular Css Framework in market. We will use it, but still in maximum websites pure css is used for styling.
 
@@ -40,8 +40,28 @@
                                 2. Layouts :-  overall structure and arrangements of elements. eg:- container, grid.
 
 *** Layouts :- 
-             1. Container :- iska kam hota h, elements ko contain karke rakhna aur unhe ek defined space ke under dikhana.
+             * 1. Container :- iska kam hota h, elements ko contain karke rakhna aur unhe ek defined space ke under dikhana.
              --> jab hm Bootstrap ko add karte h, to us elements ke text properties v change hote h.
+
+             * 2. Grid :-  Bootstrap grid is based upon Flexbox. and it is responsive.
+             --> 12 column system :- in Bootstrap grid each row is divided into 12 equal units, which is 12 column system.
+             --> we create grid using <div class="container">.
+             --> inside container we can create each row using a <div class="row">, which by default divides in 
+                 12 equal columns.
+             --> And inside each row we create columns using <div class="col">.
+             --> class="col-6" means we give 6 units to the column. so this way we can assing no. of columns to the columns.
+             --> grid system me responsiveness ko add karne ke liye grid-options hote h.
+             --> grid option :- width & height ke according columns kis tarike se change honge decide kart h.
+                 eg: <div class="col-xl-4"> Column-1 </div> 
+                  --> it means that jab tak screen size xl yani 1200px ya isse jyada
+                  hoga tab tak column-1 4 units ko occupy karega aur isse chhota hote hi wo 100% available widht ko occupy karega.
+
+             --> 2 grid options ko hm ek sath club kar sakte h. 
+             --> eg: <div class="col-md-6 col-xl-4 "> Column-1 </div>
+             --> jab tak medium hit nhi karega tab tak column 100% width ko lega, medium hit karte hi column available
+                 width ka 50% lega, aur xl hit karne ke bad column available widht ka 33%(4 units) le lega.
+
+             * 3. column :- align elements vertically.
 
 
 *** Components :- 
@@ -80,5 +100,54 @@
                 --> We can include Texts in navbar as a link or heading using a class=".navbar-brand".
                 --> We can replace the text by an image.
                 --> We can replace the text by an image & text also.
-                --> 
+                --> We can make our navbar fixed at the top and it won't scroll with other elements using a class="fixed-top" in <nav>.
+                --> aria-level="search" is for screen readers.
+                --> We can even include form like search and search button inside <nav>.
+                --> we can even change the background color of <nav>.
+                --> agar navbar ke uper v kuchh content hote h to use dekhne ke liye <nav> ko class="sticky-top" dena hota h, otherwise
+                   class="fixed-top" me navbar ke uper wali chij nhi dikhegi qki <nav> top me fixed ho chuka h.
+
+               * 6. Cards :- Cards in websites used to show products related things.
+               --> we create cards using <div> and a class="card".
+               --> we can add multiple elements in card such as image, card body, card title, texts and links too.
+
+               * 7. Forms :- We create form using <form> and with a class="mb-3".
+               --> we can add different elements and its labelling inside form element.
+
+                  * Select :- to create dropdown.
+                     --> we create dropdown menu using <Select> with class="form-select".
+                     --> we add multiple options in dropdown using <option> with a value="some_value".
+
+                  * checkboxe :- 
+                  --> we create checkbox using <div> and a class="form-check".
+                  --> we can add input and label for input.
+
+                  * radio :-
+                  -->  we create radio using <div> and a class="form-check".
+                  --> we can add input and label.
+
+                  * switches :- we can create switches in website.
+                  --> switches are different type of checkboxes.
+
+                  ** grid-layouts ko hm forms ke under v apply kar sakte h.
+
+
+
+
+
+
+
+
+
+** 1. mb-3: mb stands for "margin-bottom".
+--> The 3 specifies the amount of margin to apply. Bootstrap uses a spacing scale from 0 to 5, 
+where 3 applies a moderate amount of margin.
+
+** 2. me-3: me stands for "margin-end".
+--> In left-to-right (LTR) languages, this is equivalent to margin-right. In right-to-left (RTL) languages,
+ it would be margin-left. The 3 specifies the amount of margin to apply, similar to mb-3.
+
+ 
+                  
+
 
